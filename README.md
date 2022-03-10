@@ -1,14 +1,12 @@
 
-===========================================================================
-	                      CODE DESCRIPTION
-===========================================================================
+CODE DESCRIPTION 
+=================
 
 The hPIC-surrogate MATLAB code creates surrogate ion energy-angle distribution 
 (IEAD) models based on hPIC data and performs sensitivity analysis.
 
-===========================================================================
-	                     CODE DEPENDENCIES
-===========================================================================
+CODE DEPENDENCIES
+=================
 
 The code requires the following:
 
@@ -18,9 +16,9 @@ The code requires the following:
 
 (3) hPIC data: see downloading instructions below
 
-===========================================================================
-	                      MATLAB FILES
-===========================================================================
+
+MATLAB FILES
+============
 
 The function "main.m" is the main function that needs to be run. 
 
@@ -31,15 +29,15 @@ changed to account for other cases, with the following options:
 - sglevel = 7, 10, 13
 
 The function requires definition of the following directories:
-- Directory_tsg  : directory corresponding to the Tasmanian Workfiles folder
+- Directory_tsg: directory corresponding to the Tasmanian Workfiles folder
 - Directory_train: directory containing the training data 
                    (two directories need to be defined - one for 2D and one for 4D)
-- Directory_test : directory containing the testing data 
+- Directory_test: directory containing the testing data 
                    (two directories need to be defined - one for 2D and one for 4D)                          
 
-===========================================================================
-	                 TASMANIAN INSTALLATION
-===========================================================================
+
+TASMANIAN INSTALLATION
+======================
 
 The following are steps for installation of Tasmanian and linking MATLAB to it.
 
@@ -85,9 +83,9 @@ Type the following in MATLAB (a command to add the path is output when running c
 
 addpath('~/Documents/MATLAB/TASMANIAN-7.7/INSTALL_DIR/share/Tasmanian/matlab/')
 
-===========================================================================
-	                       hPIC DATA 
-===========================================================================
+
+hPIC DATA 
+=========
 
 The hPIC data can be freely accessed online through the Constellation portal 
 (https://doi.ccs.ornl.gov/) of the Oak Ridge National Laboratory Leadership 
